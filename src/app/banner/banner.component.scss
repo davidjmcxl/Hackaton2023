@@ -1,0 +1,44 @@
+.banner {
+  background-image: url("../../assets/bannerBack.jpg");
+  opacity: 0.8;
+  height: 30vh;
+  width: 100%;
+  display: flex;
+
+
+  justify-content: center;
+  align-items: center;
+  .banner-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+
+    .banner-img{
+      width: 300px;
+    }
+    button{
+      width: 80%;
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .banner {
+    height: 40vh;
+    .banner-content {
+
+    .banner-img{
+      width: 400px;
+    }}
+  }
+}
+@media (min-width: 1000px) {
+  .banner {
+
+    .banner-content {
+    .banner-img{
+      width: 500px;
+    }}
+  }
+}
