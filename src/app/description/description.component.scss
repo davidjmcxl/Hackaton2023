@@ -1,68 +1,36 @@
-.container{
+.container {
   padding: 20px;
-  .description{
+  .description {
     margin-top: 30px;
   }
 }
-.img-desc{
+.img-desc {
   width: 100%;
   height: 100%;
   max-width: 500px;
   object-fit: cover;
   border-radius: 10px;
 }
-.fs{
-  font-size: 18px;
+.fs {
+  font-size: 16px;
 }
-.objective{
+.objective {
   margin-top: 20px;
   padding: 10px;
-  border-radius: 30px 10px 30px 10px ;
-  background-color: var(--blue-5);
-  .text-obj{
-    color:var(--blue-2)
-
+  border-radius: 30px 10px 30px 10px;
+  background-color: var(--blue-6);
+  -webkit-box-shadow: 5px -1px 7px 0px rgba(91, 98, 99, 1);
+  -moz-box-shadow: 5px -1px 7px 0px rgba(91, 98, 99, 1);
+  box-shadow: 5px -1px 7px 0px rgba(91, 98, 99, 1);
+  .text-obj {
+    color: var(--blue-2);
   }
-  .aspects{
-margin-left: auto;
+  .aspects {
+    margin-left: auto;
   }
 }
 @media (min-width: 1000px) {
-  .fs{
-    font-size: 22px;
-  }
-}
-.container{
-  padding: 20px;
-  .description{
-    margin-top: 30px;
-  }
-}
-.img-desc{
-  width: 100%;
-  height: 100%;
-  max-width: 500px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-.fs{
-  font-size: 18px;
-}
-.objective{
-  margin-top: 20px;
-  padding: 10px;
-  border-radius: 30px 10px 30px 10px ;
-  background-color: var(--blue-5);
-  .text-obj{
-    color:var(--blue-2)
-
-  }
-  .aspects{
-margin-left: auto;
-  }
-}
-@media (min-width: 1000px) {
-  .fs{
-    font-size: 22px;
+  .fs {
+    font-size: 18px;
   }
 }
